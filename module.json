@@ -1,0 +1,20 @@
+{   
+   "name": "slimmodule",   
+   "title": "Slims Shared Module",   
+   "description": "Sharing data across worlds",   
+   "author": "SlimDante",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion": "0.6.5"
+   
+   "packs": [
+    {
+      "name": "Tech Tree",
+      "label": "Technology",
+      "path": "packs/technology-skills.db",
+      "entity": "Item",
+      "module": "slimmodule"
+    }
+  ]
+  
+ }
