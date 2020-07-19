@@ -3,7 +3,7 @@
    "title": "Slims Shared Module",   
    "description": "Sharing data across worlds",   
    "author": "SlimDante",
-   "version": "1.0.1d",
+   "version": "1.0.2",
    "minimumCoreVersion": "0.5.0",
    "compatibleCoreVersion": "0.6.5",
    
@@ -28,11 +28,18 @@
       "path": "packs/additional-classes.db",
       "entity": "Item",
       "module": "slim-module"
+    },
+    {
+      "name": "Additional Spells",
+      "label": "Additional Spells",
+      "path": "packs/additional-spells.db",
+      "entity": "Item",
+      "module": "slim-module"
     }
   ],
 
   "url": "https://github.com/SlimDante/VTT",
   "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/1.0.1d.zip",
+  "download": "https://github.com/SlimDante/VTT/archive/1.0.2.zip",
   "license" : "LICENSE"  
  }
