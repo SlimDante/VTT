@@ -46,7 +46,7 @@
     {
       "name": "Additional Class Features",
       "label": "Additional Class Features",
-      "path": "additional-class-features.db",
+      "path": "packs/additional-class-features.db",
       "entity": "Item",
       "module": "slim-module"
     }
