@@ -3,7 +3,7 @@
    "title": "Slims Shared Module",   
    "description": "Sharing data across worlds",   
    "author": "SlimDante",
-   "version": "1.0.5b-finalfinal",
+   "version": "1.0.5c",
    "minimumCoreVersion": "0.5.0",
    "compatibleCoreVersion": "0.6.5",
    
@@ -49,11 +49,18 @@
       "path": "packs/additional-class-features.db",
       "entity": "Item",
       "module": "slim-module"
+    },
+    {
+      "name": "Additional Items",
+      "label": "Additional Items",
+      "path": "packs/additional-items.db",
+      "entity": "Item",
+      "module": "slim-module"
     }
   ],
 
   "url": "https://github.com/SlimDante/VTT",
   "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/1.0.5b-finalfinal.zip",
+  "download": "https://github.com/SlimDante/VTT/archive/1.0.5c.zip",
   "license" : "Not to be shared for money."  
  }
