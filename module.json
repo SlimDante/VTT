@@ -3,7 +3,7 @@
    "title": "Slims Shared Module",   
    "description": "Sharing data across worlds",   
    "author": "SlimDante",
-   "version": "1.0.6a",
+   "version": "1.0.6aaaaaaaaah",
    "minimumCoreVersion": "0.5.0",
    "compatibleCoreVersion": "0.6.5",
    
@@ -60,7 +60,7 @@
     {
       "name": "Additional Creatures",
       "label": "Additional Creatures",
-      "path": "additional-creatures.db",
+      "path": "packs/additional-creatures.db",
       "entity": "Actor",
       "module": "slim-module"
     }
@@ -68,6 +68,6 @@
 
   "url": "https://github.com/SlimDante/VTT",
   "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/1.0.6a.zip",
+  "download": "https://github.com/SlimDante/VTT/archive/1.0.6aaaaaaaaah.zip",
   "license" : "Not to be shared for money."  
  }
