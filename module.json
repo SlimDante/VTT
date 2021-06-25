@@ -3,7 +3,7 @@
    "title": "Slims Shared Module",   
    "description": "Sharing data across worlds",   
    "author": "SlimDante",
-   "version": "1.4.1",
+   "version": "1.4.2",
    "minimumCoreVersion": "0.7.5",
    "compatibleCoreVersion": "0.7.9",
    
@@ -72,6 +72,20 @@
       "module": "slim-module"
     },
     {
+      "name": "Plat Backgrounds",
+      "label": "Plat Backgrounds",
+      "path": "packs/plat-backgrounds.db",
+      "entity": "Item",
+      "module": "slim-module"
+    },
+    {
+      "name": "Plat Class Features",
+      "label": "Plat Class Features",
+      "path": "packs/plat-class-features.db",
+      "entity": "Item",
+      "module": "slim-module"
+    },
+    {
       "name": "Additional Class Features",
       "label": "Additional Class Features",
       "path": "packs/additional-class-features.db",
@@ -96,6 +110,6 @@
 
   "url": "https://github.com/SlimDante/VTT",
   "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/1.4.1.zip",
+  "download": "https://github.com/SlimDante/VTT/archive/1.4.2.zip",
   "license" : "Not to be shared for money."  
  }
