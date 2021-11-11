@@ -3,50 +3,15 @@
    "title": "Slims Shared Module",   
    "description": "Sharing data across worlds",   
    "author": "SlimDante",
-   "version": "1.5.1",
+   "version": "1.6.0",
    "minimumCoreVersion": "0.7.5",
    "compatibleCoreVersion": "0.8.9",
    
    "packs": [
     {
-      "name": "Racial Overlays and Features",
-      "label": "Racial Overlays and Features",
-      "path": "packs/racial-overlays-and-features.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
-      "name": "Technology",
-      "label": "Technology",
-      "path": "packs/technology-skills.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
-      "name": "Talents Tree",
-      "label": "Talent Tree",
-      "path": "packs/talent-tree.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
       "name": "Additional Classes",
       "label": "Additional Classes",
       "path": "packs/additional-classes.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
-      "name": "Additional Spells",
-      "label": "Additional Spells",
-      "path": "packs/additional-spells.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
-      "name": "Firearms",
-      "label": "Firearms",
-      "path": "packs/firearms.db",
       "entity": "Item",
       "module": "slim-module"
     },
@@ -65,15 +30,43 @@
       "module": "slim-module"
     },
     {
-      "name": "Additional Creatures",
-      "label": "Additional Creatures",
-      "path": "packs/additional-creatures.db",
-      "entity": "Actor",
+      "name": "Additional Spells",
+      "label": "Additional Spells",
+      "path": "packs/additional-spells.db",
+      "entity": "Item",
+      "module": "slim-module"
+    },
+    {
+      "name": "Firearms",
+      "label": "Firearms",
+      "path": "packs/firearms.db",
+      "entity": "Item",
+      "module": "slim-module"
+    },
+    {
+      "name": "Racial Overlays and Features",
+      "label": "Racial Overlays and Features",
+      "path": "packs/racial-overlays-and-features.db",
+      "entity": "Item",
+      "module": "slim-module"
+    },
+    {
+      "name": "Talents Tree",
+      "label": "Talent Tree",
+      "path": "packs/talent-tree.db",
+      "entity": "Item",
+      "module": "slim-module"
+    },
+    {
+      "name": "Technology",
+      "label": "Technology",
+      "path": "packs/technology-skills.db",
+      "entity": "Item",
       "module": "slim-module"
     }
   ],
   "url": "https://github.com/SlimDante/VTT",
   "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/1.5.1.zip",
+  "download": "https://github.com/SlimDante/VTT/archive/1.6.0.zip",
   "license" : "Not to be shared for money."  
- }
+}
