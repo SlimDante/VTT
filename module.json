@@ -3,32 +3,11 @@
    "title": "Slims Shared Module",   
    "description": "Sharing data across worlds",   
    "author": "SlimDante",
-   "version": "1.4.2",
+   "version": "1.5",
    "minimumCoreVersion": "0.7.5",
-   "compatibleCoreVersion": "0.7.9",
+   "compatibleCoreVersion": "0.8.9",
    
    "packs": [
-    {
-      "name": "Plat Creatures",
-      "label": "Plat Creatures",
-      "path": "packs/platcreatures.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
-      "name": "Plat Items",
-      "label": "Plat Items",
-      "path": "packs/platitems.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
-      "name": "Plat Spells",
-      "label": "Plat Spells",
-      "path": "packs/platspells.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
     {
       "name": "Racial Overlays and Features",
       "label": "Racial Overlays and Features",
@@ -72,20 +51,6 @@
       "module": "slim-module"
     },
     {
-      "name": "Plat Backgrounds",
-      "label": "Plat Backgrounds",
-      "path": "packs/plat-backgrounds.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
-      "name": "Plat Class Features",
-      "label": "Plat Class Features",
-      "path": "packs/plat-class-features.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
       "name": "Additional Class Features",
       "label": "Additional Class Features",
       "path": "packs/additional-class-features.db",
@@ -110,6 +75,6 @@
 
   "url": "https://github.com/SlimDante/VTT",
   "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/1.4.2.zip",
+  "download": "https://github.com/SlimDante/VTT/archive/1.5.zip",
   "license" : "Not to be shared for money."  
  }
