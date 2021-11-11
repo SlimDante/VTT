@@ -3,7 +3,7 @@
    "title": "Slims Shared Module",   
    "description": "Sharing data across worlds",   
    "author": "SlimDante",
-   "version": "1.5",
+   "version": "1.5.1",
    "minimumCoreVersion": "0.7.5",
    "compatibleCoreVersion": "0.8.9",
    
@@ -75,6 +75,6 @@
 
   "url": "https://github.com/SlimDante/VTT",
   "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/1.5.zip",
+  "download": "https://github.com/SlimDante/VTT/archive/1.5.1.zip",
   "license" : "Not to be shared for money."  
  }
