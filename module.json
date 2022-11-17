@@ -1,72 +1,85 @@
 {   
-   "name": "slim-module",   
-   "title": "Slims Shared Module",   
-   "description": "Sharing data across worlds",   
-   "author": "SlimDante",
-   "version": "1.7.0",
-   "minimumCoreVersion": "0.8.3",
-   "compatibleCoreVersion": "9",
+  "id": "slim-module",
+  "title": "Slims Shared Module",
+  "description": "Compendium Package",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "SlimDante"
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+     
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+  },
    
-   "packs": [
+  "packs": [
     {
       "name": "Additional Classes",
       "label": "Additional Classes",
       "path": "packs/additional-classes.db",
-      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e",
       "module": "slim-module"
     },
     {
       "name": "Additional Class Features",
       "label": "Additional Class Features",
       "path": "packs/additional-class-features.db",
-      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e",
       "module": "slim-module"
     },
     {
       "name": "Additional Items",
       "label": "Additional Items",
       "path": "packs/additional-items.db",
-      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e",
       "module": "slim-module"
     },
     {
       "name": "Additional Spells",
       "label": "Additional Spells",
       "path": "packs/additional-spells.db",
-      "entity": "Item",
-      "module": "slim-module"
-    },
-    {
-      "name": "Firearms",
-      "label": "Firearms",
-      "path": "packs/firearms.db",
-      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e",
       "module": "slim-module"
     },
     {
       "name": "Racial Overlays and Features",
       "label": "Racial Overlays and Features",
       "path": "packs/racial-overlays-and-features.db",
-      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e",
       "module": "slim-module"
     },
     {
       "name": "Talents Tree",
       "label": "Talent Tree",
       "path": "packs/talent-tree.db",
-      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e",
       "module": "slim-module"
     },
     {
       "name": "Technology",
       "label": "Technology",
       "path": "packs/technology-skills.db",
-      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e",
       "module": "slim-module"
     }
   ],
   "url": "https://github.com/SlimDante/VTT",
   "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/1.7.0.zip",
+  "download": "https://github.com/SlimDante/VTT/archive/2.0.0.zip",
   "license" : "Not to be shared for money."  
 }
