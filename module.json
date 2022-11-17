@@ -18,7 +18,7 @@
 
   "compatibility": {
     "minimum": 9,
-    "verified": "10.120"
+    "verified": "10.120",
     "maximum": 11
   },
   
