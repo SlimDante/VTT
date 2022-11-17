@@ -1,16 +1,24 @@
 {   
-  "id": "slim-module",
+  "name": "slim-module",
   "title": "Slims Shared Module",
   "description": "Compendium Package",
-  "version": "2.0.0",
   "authors": [
     {
       "name": "SlimDante"
     }
   ],
+  "url": "https://github.com/SlimDante/VTT",
+  "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
+  "download": "https://github.com/SlimDante/VTT/archive/2.0.0a.zip",
+  "license" : "Not to be shared for money."  
+  "version": "2.0.0a",
+  "minimumCoreVersion": "10",
+  compatibleCoreVersion: "10",
+  
   "compatibility": {
-    "minimum": "10",
+    "minimum": "9",
     "verified": "10"
+    "maximum": "10"
   },
      
   "languages": [
@@ -78,8 +86,4 @@
       "module": "slim-module"
     }
   ],
-  "url": "https://github.com/SlimDante/VTT",
-  "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/2.0.0.zip",
-  "license" : "Not to be shared for money."  
 }
