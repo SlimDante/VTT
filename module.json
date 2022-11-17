@@ -1,9 +1,8 @@
 {   
   "id": "slim-module",
-  "name": "slim-module",
   "title": "Slims Shared Module",
   "description": "Compendium Package",
-  "version": "2.0.0c",
+  "version": "2.0.0d",
   "authors": [
     {
       "name": "SlimDante"
@@ -11,24 +10,26 @@
   ],
   "url": "https://github.com/SlimDante/VTT",
   "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/2.0.0c.zip",
+  "download": "https://github.com/SlimDante/VTT/archive/refs/tags/2.0.0d.zip",
   "license" : "Not to be shared for money.",  
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "10",
-
   "compatibility": {
-    "minimum": "9",
-    "verified": "10.120",
+    "minimum": "10",
+    "verified": "10",
     "maximum": "11",
   },
   
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
+  "relationships": {
+    "systems": [
+        {
+            "id": "dnd5e",
+            "type": "system",
+            "compatibility": {
+                "minimum": "2.0.0"
+            }
+        }
+    ]
   },
-   
+  
   "packs": [
     {
       "name": "Additional Classes",
