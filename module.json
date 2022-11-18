@@ -10,10 +10,10 @@
 		"minimum": "10",
 		"verified": "10"
 	},
-	"version": "2.0.0d",
+	"version": "2.0.0e",
 	"url": "https://github.com/SlimDante/VTT",
 	"manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-	"download": "https://github.com/SlimDante/VTT/archive/refs/tags/2.0.0d.zip",
+	"download": "https://github.com/SlimDante/VTT/archive/refs/tags/2.0.0e.zip",
 	"license": "Not to be shared for money.",
 	"relationships": {
 		"systems": [{
