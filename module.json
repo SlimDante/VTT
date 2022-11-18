@@ -1,97 +1,90 @@
-{   
-  "id": "slim-module",
-  "title": "Slims Shared Module",
-  "description": "Compendium Package",
-  
-  "version": "2.0.0d",
-  "url": "https://github.com/SlimDante/VTT",
-  "manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
-  "download": "https://github.com/SlimDante/VTT/archive/2.0.0d.zip",
-  "license" : "Not to be shared for money.", 
-  
-  "compatibility": {
-    "minimum": "10",
-    "verified": "10",
-    "maximum": "11",
-  },
-  "authors": [
-    {
-      "name": "SlimDante",
-    }
-  ],
-  "relationships": {
-    "systems": [
-        {
-            "id": "dnd5e",
-            "type": "system",
-            "compatibility": {
-                "minimum": "2.0.0",
-            }
-        }
-    ]
-  },
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json",
-    }
-  ],
-  
- 
-  
-  
-  
-  
-  "packs": [
-    {
-      "name": "Additional Classes",
-      "label": "Additional Classes",
-      "path": "packs/additional-classes.db",
-      "type": "Item", 
-      "module": "slim-module",
-    },
-    {
-      "name": "Additional Class Features",
-      "label": "Additional Class Features",
-      "path": "packs/additional-class-features.db",
-      "type": "Item", 
-      "module": "slim-module",
-    },
-    {
-      "name": "Additional Items",
-      "label": "Additional Items",
-      "path": "packs/additional-items.db",
-      "type": "Item", 
-      "module": "slim-module",
-    },
-    {
-      "name": "Additional Spells",
-      "label": "Additional Spells",
-      "path": "packs/additional-spells.db",
-      "type": "Item", 
-      "module": "slim-module",
-    },
-    {
-      "name": "Racial Overlays and Features",
-      "label": "Racial Overlays and Features",
-      "path": "packs/racial-overlays-and-features.db",
-      "type": "Item", 
-      "module": "slim-module",
-    },
-    {
-      "name": "Talents Tree",
-      "label": "Talent Tree",
-      "path": "packs/talent-tree.db",
-      "type": "Item", 
-      "module": "slim-module",
-    },
-    {
-      "name": "Technology",
-      "label": "Technology",
-      "path": "packs/technology-skills.db",
-      "type": "Item", 
-      "module": "slim-module",
-    }
-  ],
+{
+	"id": "slim-module",
+	"title": "Slims Shared Module",
+	"description": "Compendium Package",
+
+	"version": "2.0.0d",
+	"url": "https://github.com/SlimDante/VTT",
+	"manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
+	"download": "https://github.com/SlimDante/VTT/archive/2.0.0d.zip",
+	"license": "Not to be shared for money.",
+
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10",
+		"maximum": "11"
+	},
+	"authors": [{
+		"name": "SlimDante"
+	}],
+	"relationships": {
+		"systems": [{
+			"id": "dnd5e",
+			"type": "system",
+			"compatibility": {
+				"minimum": "2.0.0"
+			}
+		}]
+	},
+	"languages": [{
+		"lang": "en",
+		"name": "English",
+		"path": "languages/en.json"
+	}],
+
+
+
+
+
+
+	"packs": [{
+			"name": "Additional Classes",
+			"label": "Additional Classes",
+			"path": "packs/additional-classes.db",
+			"type": "Item",
+			"module": "slim-module"
+		},
+		{
+			"name": "Additional Class Features",
+			"label": "Additional Class Features",
+			"path": "packs/additional-class-features.db",
+			"type": "Item",
+			"module": "slim-module"
+		},
+		{
+			"name": "Additional Items",
+			"label": "Additional Items",
+			"path": "packs/additional-items.db",
+			"type": "Item",
+			"module": "slim-module"
+		},
+		{
+			"name": "Additional Spells",
+			"label": "Additional Spells",
+			"path": "packs/additional-spells.db",
+			"type": "Item",
+			"module": "slim-module"
+		},
+		{
+			"name": "Racial Overlays and Features",
+			"label": "Racial Overlays and Features",
+			"path": "packs/racial-overlays-and-features.db",
+			"type": "Item",
+			"module": "slim-module"
+		},
+		{
+			"name": "Talents Tree",
+			"label": "Talent Tree",
+			"path": "packs/talent-tree.db",
+			"type": "Item",
+			"module": "slim-module"
+		},
+		{
+			"name": "Technology",
+			"label": "Technology",
+			"path": "packs/technology-skills.db",
+			"type": "Item",
+			"module": "slim-module"
+		}
+	]
 }
