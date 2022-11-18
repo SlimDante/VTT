@@ -2,13 +2,11 @@
 	"id": "slim-module",
 	"title": "Slims Shared Module",
 	"description": "Compendium Package",
-
 	"version": "2.0.0d",
 	"url": "https://github.com/SlimDante/VTT",
 	"manifest": "https://raw.githubusercontent.com/SlimDante/VTT/master/module.json",
 	"download": "https://github.com/SlimDante/VTT/archive/2.0.0d.zip",
 	"license": "Not to be shared for money.",
-
 	"compatibility": {
 		"minimum": "10",
 		"verified": "10",
@@ -31,12 +29,6 @@
 		"name": "English",
 		"path": "languages/en.json"
 	}],
-
-
-
-
-
-
 	"packs": [{
 			"name": "Additional Classes",
 			"label": "Additional Classes",
